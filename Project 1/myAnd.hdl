@@ -7,7 +7,8 @@ CHIP myAnd {
     OUT out;
     
     PARTS:
-    //// Replace this comment with your code.
+    
     Nand(a=a,b=b,out=c1);
     myNot(in=c1,out=out);
+
 }

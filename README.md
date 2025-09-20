@@ -1,4 +1,4 @@
-# Build a Computer from First Principles (Nand to Tetris I)  
+# Built a Computer from First Principles (Nand to Tetris I)  
 
 Course projects are based on [Nand2Tetris](https://www.nand2tetris.org/).  
 The course takes a bottom-up approach to computer systems — starting with simple logic gates and step by step building towards a complete 16-bit computer capable of running programs.  

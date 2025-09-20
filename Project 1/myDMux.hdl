@@ -1,0 +1,16 @@
+/**
+ * Demultiplexor:
+ * [a, b] = [in, 0] if sel = 0
+ *          [0, in] if sel = 1
+ */
+
+CHIP myDMux {
+    IN in, sel;
+    OUT a, b;
+
+    PARTS:
+    
+    myAnd(a=in,b=sel,out=b);
+    myNot(in=sel,out=notin);
+    myAnd(a=notin,b=in,out=a);
+}
